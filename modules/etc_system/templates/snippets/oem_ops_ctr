@@ -1,0 +1,7 @@
+*
+*  OEM Ops Center
+*
+set rlim_fd_cur=1024
+set pidmax=60000
+set maxuprc=50000
+set max_nprocs=50000

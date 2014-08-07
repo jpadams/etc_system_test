@@ -1,0 +1,6 @@
+to set this up:
+1) put this directory on your master in /etc/puppetlabs/puppet/environments/.
+2) in /etc/puppetlabs/puppet/puppet.conf change the line that specifies "hiera_config" to 
+/etc/puppetlabs/puppet/environments/etc_system_test/hiera.yaml (perhaps preserve old line with a comment #)
+3) restart the puppet master web service to pick up the new hiera.yaml file: `service httpd restart`
+4) then from a Solaris agent run `puppet agent -t --environment=etc_system_test`

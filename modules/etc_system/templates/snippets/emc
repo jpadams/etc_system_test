@@ -1,0 +1,6 @@
+*
+*  EMC Settings
+*
+set ssd:ssd_max_throttle=20
+set ssd:ssd_io_time=0x3c
+set fcp:fcp_offline_delay=20

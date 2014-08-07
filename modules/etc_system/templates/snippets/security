@@ -1,0 +1,6 @@
+*
+*  Security settings
+*
+set sys:coredumpsize=0
+set noexec_user_stack=1
+set noexec_user_stack_log=1

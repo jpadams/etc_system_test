@@ -1,0 +1,8 @@
+*
+*  Limit ZFS ARC
+*
+set zfs:zfs_arc_max=0x100000000
+*
+*  ZFS Control for LUN queue depth
+*
+set zfs:zfs_vdev_max_pending=20

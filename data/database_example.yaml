@@ -1,0 +1,7 @@
+---
+etc_system_snippets:
+ - etc_system/snippets/boilerplate
+ - etc_system/snippets/security
+ - etc_system/snippets/emc
+ - etc_system/snippets/zfs
+ - etc_system/snippets/oem_ops_ctr

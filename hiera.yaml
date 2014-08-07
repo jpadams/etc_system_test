@@ -1,0 +1,9 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+  - database_example
+  - "%{fqdn}"
+  - global
+:yaml:
+  :datadir: /etc/puppetlabs/puppet/environments/etc_system_test/data

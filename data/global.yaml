@@ -1,0 +1,4 @@
+---
+etc_system_snippets:
+ - etc_system/snippets/boilerplate
+ - etc_system/snippets/security
