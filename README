@@ -5,4 +5,4 @@ to set this up:
 3) restart the puppet master web service to pick up the new hiera.yaml file: `service httpd restart`
 4) then from a Solaris agent run `puppet agent -t --environment=etc_system_test`
 
-note: currently hiera will use the data in "database_example.yaml" every time because of the hierarchy in the "hiera.yaml". If you'd like to try using "fqdn" (or some other fact), simply remove the "database_example" line from the yaml file (or move it below the "%fqdn" line since hiera returns the first match read top to bottom) and add a file to the "data" directory in the form "<fqdn of server>.yaml".
+note: currently hiera will use the data in "database_example.yaml" every time because of the hierarchy in the "hiera.yaml". If you'd like to try using "fqdn" (or some other fact), simply remove the "database_example" line from the yaml file (or move it below the "%{fqdn}" line since hiera returns the first match read top to bottom) and add a file to the "data" directory in the form "<fqdn of server>.yaml".
